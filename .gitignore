@@ -1,0 +1,28 @@
+# Archivos y carpetas de Python
+# --------------------
+# Ignora la carpeta del entorno virtual. Es crucial para evitar que Git rastree miles de archivos.
+venv/
+.venv/
+env/
+
+# Archivos de caché de Python generados automáticamente
+__pycache__/
+
+# Archivos de bytecode compilados
+*.pyc
+
+# --------------------
+# Archivos y carpetas de Visual Studio Code
+# --------------------
+# Ignora la carpeta de configuración de VS Code para el proyecto.
+# Contiene configuraciones específicas de tu entorno local, como ajustes de depuración.
+.vscode/
+
+# --------------------
+# Otros archivos temporales o de sistema
+# --------------------
+# Archivos de log
+*.log
+
+# Datos sensibles o de configuración que no deben ser públicos
+.env
